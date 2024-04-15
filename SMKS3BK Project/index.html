@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SMK Seksyen 3 Bandar Kinrara</title>
+  <link rel="shortcut icon" href="Images/school-badge.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="main.js"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDwYmkPbZdKjmTPb24UBgzGIc0HbWvk9-8",
+      authDomain: "html-testing-afeeb.firebaseapp.com",
+      projectId: "html-testing-afeeb",
+      storageBucket: "html-testing-afeeb.appspot.com",
+      messagingSenderId: "828400440473",
+      appId: "1:828400440473:web:ee3d1d6947549fceefd408",
+      measurementId: "G-9SMK07NNKK"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#infodiv" class="info"><img src="Images/info-icon.png" alt="info icon" class="imginfo"></a></li>
+      <li><a href="#countdowndiv" class="countdown"><img src="Images/hourglass-icon.png" alt="hourglass icon" class="imgctdn"></a></li>
+      <li><a href="#contactdiv" class="contact"><img src="Images/phone-icon.png" alt="phone icon" class="imgcntt"></a></li>
+      <li><a href="#homediv" class="main"><img src="Images/home-icon.png" alt="home icon" class="imghome"></a></li>
+    </ul>
+  </nav>
+  <form>
+    <input class="searchbar" type="text" name="search" placeholder="Search..">
+  </form>
+  <div id="homediv">
+    <banner><img src="Images/school-badge.png" alt="School Badge" class="badgepic"></banner>
+    <h1>SMK Seksyen 3<br>Bandar Kinrara</h1>
+    <h3 class="subhone">SMK Seksyen 3 Bandar Kinrara, Jalan Kinrara 5B, 47100, Puchong, Selangor</h3>
+  </div>
+  <div id="infodiv">
+    <h2 class="infosh">Info Sekolah</h2>
+    <h3 class="pr">Pentadbir</h3>
+    <figure class="p">
+      <img src="Images/pengetua.jpg" alt="Pengetua" class="imgp">
+      <figcaption>Puan Serina binti Jaafar</figcaption>
+      <figcaption class="pntdbr">Pengetua</figcaption>
+    </figure>
+    <figure class="pk">
+      <img src="Images/pk.jpg" alt="PK." class="imgpn">
+      <figcaption>Datin Hajah<br>Zubaidah<br>binti Mahmood</figcaption>
+      <figcaption class="pntdbr">Penolong Kanan</figcaption>
+    </figure>
+    <figure class="pk">
+      <img src="Images/pkhem.jpg" alt="PK. HEM" class="imgpn">
+      <figcaption>Puan Hajah<br>Maheran<br>binti Taib</figcaption>
+      <figcaption class="pntdbr">PK. HEM</figcaption>
+    </figure>
+    <figure class="pkt">
+      <img src="Images/pkp.jpg" alt="PK. Petang" class="imgpn">
+      <figcaption>Puan Norkayati<br>binti Robani</figcaption>
+      <figcaption class="pntdbr">PK. Petang</figcaption>
+    </figure>
+    <figure class="pkt">
+      <img src="Images/pkkoko.jpg" alt="PK. Kokurikulum" class="imgpn">
+      <figcaption>Puan Nik<br>Haslindar<br>binti Che Hamid</figcaption>
+      <figcaption class="pntdbr">PK. Kokurikulum</figcaption>
+    </figure>
+    <div class="moshhold">
+      <h6 class="hto">Moto Sekolah</h6>
+      <h3 class="motosh">Berilmu, Beramal, Berbakti.</h3>
+    </div>
+    <div id="myMenuvm">
+      <img src="Images/guillemet.png" alt="guillemet" id="guillemet" onclick="myDisvm()">
+      <h2 class="menue">Visi</h2>
+      <h3 class="menuec">SMK Seksyen 3 Bandar Kinrara Terbilang Menjelang 2020</h3>
+      <h2 class="menue">Misi</h2>
+      <h3 class="menuec">Memberi Pendidikan berkualiti Kepada Semua Murid Bagi Melahirkan Modal Insan Yang Berilmu Dan Berakhlak Dengan Mengupayakan Sumber Berdasarkan Aspirasi Negara</h3>
+    </div>
+    <div id="myMenut">
+      <img src="Images/guillemet.png" alt="guillemet" id="guillemet" onclick="myDist()">
+      <h2 class="menue">Takwim</h2>
+      <h3 class="smenuec">Kategori: Jadual</h3>
+      <h4 class="dsmenuec">Tarikh: 5 Oct 2018</h4>
+      <img src="Images/textbook-return-table.jpg" alt="Textbook Return Table" class="trexam">
+      <h3 class="smenuec">Kategori: Jadual</h3>
+      <h4 class="dsmenuec">Tarikh: 14 Sep 2018</h4>
+      <img src="Images/exam-table.jpg" alt="Exam Table" class="texam">
+    </div>
+    <div id="myMenus">
+      <img src="Images/guillemet.png" alt="guillemet" id="guillemet" onclick="myDiss()">
+      <h2 class="menue">Sejarah Sekolah</h2>
+      <h3 class="menuec">SMK Seksyen 3 Bandar Kinrara dibuka pada 1.12.2001. Saluran murid ke sekolah ini datang dari SK Seksyen 1 Bandar Kinrara, SJK(T) Castlefield, SJK(T) Kinrara, SJK(T) Puchong, SK Seafield, SJK(C) Sedang Baru, SK Puchong Jaya 2, SK Pusat Bandar Puchong 1, SJK(C) Lick Hung dan SJK(C) Yak Chee. Sesi persekolahan bermula pada 7.1.2002 dengan 18 orang tenaga pengajar, 2 orang staf sokongan dan 79 orang pelajar. Sekolah ini mempunyai 3 blok 2 tingkat dan 3 blok 1 tingkat yang terdiri daripada Bengkel MPV, Blok Kantin dan Surau. Keluasan sekolah ini ialah 25159 meter persegi dengan peruntukan bagi padang sekolah, gelanggang bola keranjang, blok bangunan kelas, sebuah kantin dan surau.
+
+Pada tahun 2012, sekolah ini mempunyai seorang pengetua baru yang bernama En. Shamsul Azha bin Md Yusuf. Beliau menukarkan nama sekolah ini yang sebelumnya "SEMESTI" dan sekarang ialah "SEMESTIB" kerana nama SEMESTI telah digunakan oleh sekolah lain.
+
+Pada tahun 2016, penolong kanan petang digantikan dengan Puan Hajah Omme Kalthom binti Md Sharif oleh Tan Siew Hong.</h3>
+    </div>
+    <div id="myMenub">
+      <img src="Images/guillemet.png" alt="guillemet" id="guillemet" onclick="myDisb()">
+      <h2 class="menue">Biodata Admin</h2>
+      <img src="Images/sonic-red-head-spectrum-bottom.jpg" alt="Admin Alief" class="admin">
+      <h3 class="menueca">Muhd Alief Farhan bin MD Nasir</h3>
+      <h3 class="menuec">Tingkatan: 2 KAA</h3>
+      <h3 class="menuec">Birthdate: 14 Oct 2005</h3>
+    </div>
+  </div>
+  <div id="infobar">
+    <button type="button" id="ibm" onclick="myVm()">Visi & Misi</button>
+    <button type="button" id="ibm" onclick="myT()">Takwim</button>
+    <button type="button" id="ibm" onclick="myS()">Sejarah Sekolah</button>
+    <button type="button" id="ibm" onclick="myB()">Biodata Admin</button>
+  </div>
+  <div id="countdowndiv">
+    <h2 class="examctdn">Exam Countdown</h2>
+    <div class="pttree">
+      <h3 class="ctdn">PT3 Countdown</h3>
+      <p id="ptthreecn"></p>
+    </div>
+    <div class="speem">
+      <h3 class="ctdn">SPM Countdown</h3>
+      <p id="spmcn"></p>
+    </div>
+  </div>
+  <div id="contactdiv">
+    <h2 class="ourcntt">Our Contacts</h2>
+    <a href="https://www.facebook.com/semestib/"><img src="Images/facebook-logo.png" alt="Facebook" class="fblg"></a>
+    <a href="https://twitter.com/smkseksyen3bk?lang=en"><img src="Images/twitter-logo.png" alt="twitter" class="twlg"></a>
+    <a href="bea8645.1bestarinet.net"><img src="Images/frogos-logo.png" alt="Frog OS" class="fros"></a>
+    <select class="sw" name="Official Website" onchange="window.location.href = this.value;">
+      <option disabled selected>SEMESTIB Official Website</option>
+      <option value="http://smkseksyen3bandarkinrara.com">SEMESTIB WordPress</option>
+      <option value="http://semestib.edu.my">SEMESTIB edu.my</option>
+    </select>
+    <img src="Images/school-map.jpg" alt="School Map" class="slmp">
+    <form class="fcs" action="#comm" method="post">
+      <textarea name="comment" id="comm"></textarea>
+      <input type="submit" name="submit" value="Submit" class="sbmt">
+    </form>
+    <h2 class="vstrcnt">Visitor Count</h2>
+    <br>
+    <h3 class="svstrsnt">7463 Visitor</h3>
+    <h3 class="fox">Fax: 03-80757657</h3>
+    <h3 class="fox">Tel: 03-80757760</h3>
+  </div>
+</body>
+</html>
